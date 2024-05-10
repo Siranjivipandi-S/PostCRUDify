@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    #e4afcb 0%,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #e2c58b 30%,
+    #c2ce9c 64%,
+    #7edbdc 100%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+.inputcontainer {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px 0px;
+  width: 400px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+.inputcontainer input {
+  height: 25px;
+  font-size: 1.2rem;
+}
+.inputcontainer select {
+  height: 24px;
+  font-size: 1rem;
+}
+.inputcontainer button {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: plum;
+  width: 100%;
+  margin-top: 20px;
+  height: 40px;
+}
+.inputcontainer button :active {
+  color: plum;
+  background-color: aliceblue;
+}
+.inputcontainer select {
+  border: none;
+  background: transparent;
+  outline: none;
+  border-bottom: 2px solid grey;
+}
+input {
+  border: none;
+  background: none;
+  border-bottom: 2px solid grey;
+  outline: none;
+}
+.row {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.Grouppost {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 10px;
+}
+.Orderpost {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  gap: 10px;
+  border-radius: 10px;
+  display: flex;
+  width: 390px;
+  height: 220px;
+  padding: 0px 0px 10px 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reactBtn {
+  outline: none;
+  background: transparent;
+  border: none;
+  padding: 3px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 40px;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.reactBtn {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+.reactBtn:hover {
+  background-color: black;
+  color: beige;
+}
+#editbtn {
+  margin-left: -200px;
+  color: purple;
+  background: transparent;
+  outline: none;
+  border: none;
+  text-decoration: underline;
+}
+.viewcontainer {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  width: 55%;
+  height: 300px;
+  margin-left: 200px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.viewcontainer p {
+  width: 90%;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.flexbox {
+  display: flex;
+  margin-left: 200px;
+  gap: 10px;
+}
+.nav {
+  position: fixed;
+  width: 79%;
+  top: 10px;
+}
+.reactContainer {
+  display: flex;
+  gap: 2px;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outlet {
+  margin-top: 10px;
+}
+#linkbtn::after {
+  content: ">";
+  color: grey;
+  margin-left: 10px;
+}
+.userPage {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 10px;
+}
+.userPage .useritem #linkbtn {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.renderitem {
+  display: flex;
+  gap: 0;
+}
+.Userposts {
+  display: flex;
+  background-color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 10px 0px;
+  width: 390px;
+  height: 220px;
+  margin-top: 20px;
+}
+
+.orderpost {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px 0px;
+  gap: 8px;
+}
